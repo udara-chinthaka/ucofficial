@@ -1,0 +1,160 @@
+.about_container {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
+
+.about_me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(
+    45deg,
+    transparent,
+    var(--color-primary),
+    transparent
+  );
+  display: grid;
+  place-items: center;
+}
+.btn_about_me {
+  display: flex;
+  gap: 1rem;
+}
+.about_me-image {
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  height: 100%;
+  transition: var(--transition);
+}
+
+.about_me-image:hover {
+  transform: rotate(0deg);
+}
+
+.about_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.about_card {
+  background: var(--color-bg-variant);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.about_card:hover {
+  background: transparent;
+  /* border: 5px solid var(--color-white); */
+  cursor: default;
+}
+
+.about_icon {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about_card h5 {
+  font-size: 0.95rem;
+}
+.about_card small {
+  font-size: 0.8rem;
+  color: var(--color-light);
+}
+.about_content p {
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
+
+/* MODEL */
+
+.modal {
+  box-shadow: 0 1px 8px var(--color-primary);
+  border-radius: 6px;
+  background-color: var(--color-bg);
+  padding: 1rem;
+  text-align: center;
+  width: 60rem;
+  height: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 30rem);
+  /* overflow: scroll; */
+  overflow-y: scroll;
+}
+.close {
+  display: block;
+  border-radius: 50%;
+  display: inline-block;
+  color: var(--color-primary);
+  font-size: 3rem;
+  background-color: var(--color-bg);
+  cursor: pointer;
+  /* border: 3px solid var(--color-white); */
+  transition: var(--transition);
+  z-index: 20;
+
+  /* height: 3.5rem; */
+  /* aspect-ratio: 1/1; */
+}
+
+/* ============== MEDIA QURIES FOR MEDIUM DEVICES============ */
+
+@media screen and (max-width: 1024px) {
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about_me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about_content {
+    margin: 1rem 0 1.5rem;
+  }
+  .modal {
+    width: 50rem;
+    left: calc(40% - 18rem);
+  }
+  .close {
+    float: left;
+    margin-left: 0.8rem;
+    /* margin-left: 5px; */
+    z-index: 1000;
+  }
+}
+
+/* ============== MEDIA QURIES FOR SMALL DEVICES============ */
+
+@media screen and (max-width: 600px) {
+  .about_me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .about_card {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .about_content {
+    text-align: center;
+  }
+  .about_content p {
+    margin: 1.5rem 0;
+  }
+  .modal {
+    width: 25rem;
+    height: 40rem;
+    top: 10vh;
+    left: calc(71.2% - 18rem);
+  }
+  .close {
+    float: left;
+    margin-top: -10px;
+    margin-left: 5px;
+    z-index: 1000;
+  }
+}
