@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ucofficial/static/css/main.4a0fd867.css",
+    "main.js": "/ucofficial/static/js/main.b400652d.js",
+    "static/media/me.jpg": "/ucofficial/static/media/me.8e08f7673cd6137298dc.jpg",
+    "static/media/digiV.png": "/ucofficial/static/media/digiV.0535fb047f53ec786157.png",
+    "static/media/piyusha.jpeg": "/ucofficial/static/media/piyusha.dd6aafcc2001fb527dfd.jpeg",
+    "static/media/img1.png": "/ucofficial/static/media/img1.2e695eb16534f64982dd.png",
+    "static/media/food.png": "/ucofficial/static/media/food.8f8951014114ee116c3b.png",
+    "static/media/me_new.JPG": "/ucofficial/static/media/me_new.7e1ebfe634f3ac4c034d.JPG",
+    "static/media/udarachinthaka.pdf": "/ucofficial/static/media/udarachinthaka.a6516d9e34278c4d808e.pdf",
+    "static/media/Dukshika.jpeg": "/ucofficial/static/media/Dukshika.5457e5b50158288ffbd2.jpeg",
+    "static/media/pramod.jpeg": "/ucofficial/static/media/pramod.8429794c4f85b522c1c7.jpeg",
+    "index.html": "/ucofficial/index.html",
+    "main.4a0fd867.css.map": "/ucofficial/static/css/main.4a0fd867.css.map",
+    "main.b400652d.js.map": "/ucofficial/static/js/main.b400652d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a0fd867.css",
+    "static/js/main.b400652d.js"
+  ]
+}
