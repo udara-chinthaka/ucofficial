@@ -3,13 +3,11 @@ import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Experiance from "./components/Experiance/Experiance";
-import Services from "./components/Services/Services";
-import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { ThemeContext } from "./theme";
-import BlogArticle from "./components/Blog/BlogArticle";
+import Project from "./components/Projects/Project.jsx";
 
 const App = () => {
   const { theme } = useContext(ThemeContext);
@@ -20,12 +18,10 @@ const App = () => {
         <Navbar />
         <About />
         <Experiance />
-        {/* <Services />
-        <Portfolio /> */}
+        <Project />
         <Testimonials />
         <Contact />
         <Footer />
-        {/* <BlogArticle /> */}
       </div>
     </>
   );

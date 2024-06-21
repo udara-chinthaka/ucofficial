@@ -1,0 +1,92 @@
+.project_container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 2rem;
+}
+
+.project_container > div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.project_container > div:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.project_container > div h3 {
+  text-align: center;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.project_content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 2rem;
+}
+.projectButton {
+  height: 2rem;
+  text-align: "center";
+  font-size: small;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  -webkit-border-radius: 0.6rem;
+  -moz-border-radius: 0.6rem;
+  -ms-border-radius: 0.6rem;
+  -o-border-radius: 0.6rem;
+}
+.span_container {
+  display: inline-block;
+  margin: 0 5px 5px 5px;
+}
+.project_details {
+  display: flex;
+  gap: 1rem;
+}
+.tech {
+  background-color: var(--color-bg);
+  border-radius: 0.6rem;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  font-size: small;
+}
+
+.project_details-icon {
+  margin-top: 6px;
+  color: var(--color-primary);
+}
+/* ============== MEDIA QURIES FOR MEDIUM DEVICES============ */
+
+@media screen and (max-width: 1024px) {
+  .project_container {
+    grid-template-columns: 1fr;
+  }
+  .project_container > div {
+    width: 80%;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  /* .experiance_content {
+    padding: 1rem;
+  } */
+}
+
+/* ============== MEDIA QURIES FOR SMALL DEVICES============ */
+
+@media screen and (max-width: 600px) {
+  .project_container {
+    gap: 1rem;
+  }
+  .project_container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}
