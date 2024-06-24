@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/ucofficial/static/css/main.b213a2f2.css",
-    "main.js": "/ucofficial/static/js/main.2ae11d47.js",
+    "main.css": "/ucofficial/static/css/main.8aae3697.css",
+    "main.js": "/ucofficial/static/js/main.a77604ff.js",
     "static/media/me.jpg": "/ucofficial/static/media/me.8e08f7673cd6137298dc.jpg",
     "static/media/piyusha.jpeg": "/ucofficial/static/media/piyusha.dd6aafcc2001fb527dfd.jpeg",
     "static/media/me_new.JPG": "/ucofficial/static/media/me_new.7e1ebfe634f3ac4c034d.JPG",
     "static/media/udarachinthaka.pdf": "/ucofficial/static/media/udarachinthaka.a6516d9e34278c4d808e.pdf",
     "static/media/Dukshika.jpeg": "/ucofficial/static/media/Dukshika.5457e5b50158288ffbd2.jpeg",
     "static/media/pramod.jpeg": "/ucofficial/static/media/pramod.8429794c4f85b522c1c7.jpeg",
+    "static/media/gayani.jpg": "/ucofficial/static/media/gayani.5cc047c5d0e5d2cb1131.jpg",
     "index.html": "/ucofficial/index.html",
-    "main.b213a2f2.css.map": "/ucofficial/static/css/main.b213a2f2.css.map",
-    "main.2ae11d47.js.map": "/ucofficial/static/js/main.2ae11d47.js.map"
+    "main.8aae3697.css.map": "/ucofficial/static/css/main.8aae3697.css.map",
+    "main.a77604ff.js.map": "/ucofficial/static/js/main.a77604ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.b213a2f2.css",
-    "static/js/main.2ae11d47.js"
+    "static/css/main.8aae3697.css",
+    "static/js/main.a77604ff.js"
   ]
 }
