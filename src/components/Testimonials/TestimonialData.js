@@ -1,6 +1,7 @@
 import dukeshika from "../../assets/Dukshika.jpeg";
 import pramod from "../../assets/pramod.jpeg";
 import piyusha from "../../assets/piyusha.jpeg";
+import gayani from "../../assets/gayani.jpg";
 
 const data = [
   {
@@ -23,6 +24,13 @@ const data = [
     position: "QA Lead",
     avatar: pramod,
     profile: "https://www.linkedin.com/in/pramod-madduma/",
+  },
+  {
+    text: "During my ChampSoft career, I had the opportunity to work with Udara for almost 1 year in 3M project. Udara being a Software Engineer in the team, his leadership has been a key strength to the success of the project. He is really inspiring for his enthusiasm...",
+    name: "Gayani Fernando",
+    position: "Project Manager",
+    avatar: gayani,
+    profile: "https://www.linkedin.com/in/gayani-fernando-2150a122/",
   },
 ];
 

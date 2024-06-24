@@ -1,5 +1,4 @@
 import { BsCheckCircle } from "react-icons/bs";
-// import "./project.css";
 
 let techPoint;
 

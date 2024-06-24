@@ -33,15 +33,18 @@
   row-gap: 2rem;
 }
 .projectButton {
+  border: 2px solid transparent;
+  border-color: var(--color-bg);
   height: 2rem;
   text-align: "center";
   font-size: small;
   padding: 0.5rem;
+  background-color: #4db5ff;
   border-radius: 0.6rem;
-  -webkit-border-radius: 0.6rem;
-  -moz-border-radius: 0.6rem;
-  -ms-border-radius: 0.6rem;
-  -o-border-radius: 0.6rem;
+  cursor: pointer;
+}
+.projectButton:hover {
+  background-color: #ffffff;
 }
 .span_container {
   display: inline-block;

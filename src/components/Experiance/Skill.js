@@ -37,8 +37,8 @@ export const SKILL = [
   },
   {
     stack: "BE",
-    tech: "SQL",
-    level: "Experianced",
+    tech: "SQL/MySQL/Mongo",
+    level: "Experianced/Intermediate",
     index: 7,
   },
   {
