@@ -51,4 +51,11 @@ export const PROJECTS = [
     techPoints: "omdbapi, useState, useEffect,async",
     url: "https://udara-chinthaka.github.io/find-movies/",
   },
+   {
+    id: 8,
+    name: "Time Stop Challege",
+    description: "It is simple game that you can play around. You can score too.",
+    techPoints: "portals, ref, forwardRef, modal, dialog",
+    url: "https://udara-chinthaka.github.io/timechallenge/",
+  },
 ];
