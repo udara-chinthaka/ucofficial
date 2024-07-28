@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ucofficial/static/css/main.8aae3697.css",
+    "main.js": "/ucofficial/static/js/main.2742f326.js",
+    "static/media/uc.jpg": "/ucofficial/static/media/uc.78cb422b0f74b59a92ab.jpg",
+    "static/media/udarachinthaka.pdf": "/ucofficial/static/media/udarachinthaka.eeb77b99a3ff09a7c910.pdf",
+    "static/media/piyusha.jpeg": "/ucofficial/static/media/piyusha.dd6aafcc2001fb527dfd.jpeg",
+    "static/media/me_new.JPG": "/ucofficial/static/media/me_new.7e1ebfe634f3ac4c034d.JPG",
+    "static/media/Dukshika.jpeg": "/ucofficial/static/media/Dukshika.5457e5b50158288ffbd2.jpeg",
+    "static/media/pramod.jpeg": "/ucofficial/static/media/pramod.8429794c4f85b522c1c7.jpeg",
+    "static/media/gayani.jpg": "/ucofficial/static/media/gayani.5cc047c5d0e5d2cb1131.jpg",
+    "index.html": "/ucofficial/index.html",
+    "main.8aae3697.css.map": "/ucofficial/static/css/main.8aae3697.css.map",
+    "main.2742f326.js.map": "/ucofficial/static/js/main.2742f326.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8aae3697.css",
+    "static/js/main.2742f326.js"
+  ]
+}
