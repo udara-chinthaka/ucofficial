@@ -1,7 +1,7 @@
 let timelineElements = [
   {
     id: 5,
-    title: "Software Engineer",
+    title: "Software Engineer (Onsite, KSA)",
     location: "DirectFN, Colombo, LK",
     description: "Working as a Software Engineer",
     date: "2022 Feb - Present",

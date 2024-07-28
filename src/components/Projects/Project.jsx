@@ -6,7 +6,7 @@ import ProjectTab from "./ProjectTab.jsx";
 export default function Project() {
   return (
     <section id="project">
-      <h5>Study Purpose developed projects</h5>
+      <h5>Self-Learning Projects</h5>
       <h2>My Projects</h2>
 
       <div className="container project_container">

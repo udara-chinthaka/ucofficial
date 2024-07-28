@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./about.css";
-import ME from "../../assets/me.jpg";
+import ME from "../../assets/uc.jpg";
 import { FaAward } from "react-icons/fa";
 import { HiOutlineUsers } from "react-icons/hi";
 import { VscFolderLibrary } from "react-icons/vsc";
